@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    background-color: steelblue;
+
+}
+.mean_heading{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 40px;
+}
+.inpu{
+    width: 40%;
+    height: 50px;
+    margin-left: 350px;
+}
+.input_button{
+    display: flex;
+    gap: 10px;
+}
+.listgroup{
+    border: 2px solid black;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    height: 50px;
+    margin-left: 350px;
+    list-style: none;
+    display: flex;
+    /* gap: 20px; */
+    margin-top: 30px;
+    
+}
+
+.editbtn{
+    background-color: green;
+    color: white;
+    height: 40px;
+    border-radius: 20%;
+}
+.deletebtn{
+    background-color: red;
+    color: white;
+    height: 40px;
+    border-radius: 20%;
+}
+.lstbtn{
+    display: flex;
+    gap: 3px ;
+}
+.para{
+    padding-right: 40px;
+    padding-top: 15px;
+    
+}
+
+
